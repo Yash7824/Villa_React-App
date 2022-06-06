@@ -1,0 +1,84 @@
+#main4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#main4 .logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ #main4 .logos div{
+     width: 25vw;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+
+
+}
+
+#main4 .middle{
+    display: inherit;
+    flex-direction: column;
+    flex-wrap: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#main4 .contactForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+#main4 .contactForm form input{
+    width: 50vw;
+
+}
+
+#main4 .contactForm form .email{
+    width: 50vw;
+}
+
+
+#main4 .contactForm form .message{
+    width: 50vw;
+}
+
+.buttonnn{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8.5cm;
+}
+
+
+.map{
+    margin-top: 50px;
+    width: 100vw;
+    height: 70vh;
+}
+
+.map iframe{
+    width: 99vw;
+    height: 65vh;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+

@@ -1,0 +1,63 @@
+.cont3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    row-gap:7px;
+    margin-top: 40px;
+}
+
+.cont3 h4, .cont3 h1{
+    text-align: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main5{
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    row-gap: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+#main5 .bookForm{
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    /* row-gap:10px; */
+    width: 40vw;
+    box-shadow: 0 0 10px rgb(85, 82, 82);
+}
+
+#main5 .bookForm input, select, textarea{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin:10px;
+    width: 30vw;
+    align-self: center;
+    margin-top:30px;
+} 
+
+#main5 .bookForm input[type = "button"]{
+    width: 10vw;
+    height: 48px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: rgb(165, 115, 115);
+    font-weight: 800;
+    border: #fbfbfd;
+}
+
+#main5 .bookForm input[type = "button"]:hover{
+
+    transform: scale(1.2);
+    background-color: red;
+    border-radius: 20px;
+    transition: 1s;
+    border: white
+}

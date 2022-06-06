@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    /* font-family: "Signika Negative", sans-serif;
+  font-family: "Source Sans Pro", sans-serif; */
+    font-family: "Cabin", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+header nav ul {
+    display: inherit;
+    flex-direction: inherit;
+    margin-left: 50px;
+}
+
+header nav ul li {
+    display: inherit;
+    flex-direction: inherit;
+    list-style: none;
+    padding-left: 2px;
+}
+
+header nav ul li:first-child {
+    margin-left: 10px;
+}
+
+header nav ul li:nth-child(2) {
+    margin-left: 330px;
+}
+
+header nav ul li:nth-child(11) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    font-style: oblique;
+    font-feature-settings: "aalt";
+    text-decoration: underline;
+    padding: 2px;
+}

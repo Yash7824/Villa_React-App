@@ -1,0 +1,105 @@
+#main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:40px;
+}
+
+.divContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+}
+
+
+
+.marginleft p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gridd{
+    /* display: grid;
+    grid-template-columns: 1000px 1000px 1000px;
+    column-gap: 50px; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    row-gap: 50px;
+    margin-left:50px;
+    margin-top: 400px;
+}
+
+
+
+.amen:hover {
+    width: 158px;
+    height: 158px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    animation-name: rotate-windows;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  /* .main-div div {
+    background-color: #00adef;
+    width: 47.5%;
+    height: 47%;
+  } */
+  
+  @keyframes rotate-windows {
+    0% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+    50% {
+      transform: perspective(500px) rotateY(0deg);
+      -webkit-transform: perspective(500px) rotateY(0deg);
+      -moz-transform: perspective(500px) rotateY(0deg);
+      -ms-transform: perspective(500px) rotateY(0deg);
+      -o-transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+  }
+  
+
+.no-border{
+    border:none;
+    margin: 5px;
+    width: 20%;
+}
+
+.no-border img{
+    width: 288px;
+    height: 288px;
+}

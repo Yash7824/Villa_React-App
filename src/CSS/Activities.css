@@ -1,0 +1,43 @@
+.divContainer{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    padding: 5px;
+    margin: 17px auto;
+}
+
+.cont1{
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row button{
+    margin-left: 3px;
+}
+
+
+.imgStyle{
+    margin-top: 15px;
+    width: 500px;
+    height: 250px;
+}

@@ -1,0 +1,35 @@
+.containerForDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForDate label {
+    position: relative;
+    top: 30px;
+}
+
+.datepicker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    margin-left: 75px;
+
+}
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    margin-right: 35px;
+}
